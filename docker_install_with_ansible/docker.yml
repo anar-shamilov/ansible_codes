@@ -1,0 +1,10 @@
+---
+
+- name: From role docker.install
+  hosts: docker
+  become: true
+
+  roles:
+    - role: "docker.install"
+
+...
